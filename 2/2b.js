@@ -1,9 +1,9 @@
 function sevenRandomNumbers() {
-    var arr = [];
-while(arr.length < 8){
+    var array = [];
+while(array.length < 7){
     var r = Math.floor(Math.random() * 10) ;
-    if(arr.indexOf(r) === -1) arr.push(r);
+    if(array.indexOf(r) === -1) array.push(r);
 }
-return arr;
+return array;
 }
  console.log(sevenRandomNumbers())
